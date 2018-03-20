@@ -98,6 +98,7 @@ The following settings are supported by this module:
     startCalendar: null,  // jquery object or selector for another calendar that represents the start date of a date range
     endCalendar: null,    // jquery object or selector for another calendar that represents the end date of a date range
     multiMonth: 1,        // show multiple months when in 'day' mode
+    minTimeGap: 5,        // minimum time gap, it only can be 5, 10, 15, 20, 30
 
     // popup options ('popup', 'on', 'hoverable', and show/hide callbacks are overridden)
     popupOptions: {
